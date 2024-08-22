@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "start": "vite preview",  
+    "start": "vite preview --port $FRONTEND_PORT --host",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview --port $FRONTEND_PORT --host"
   },
   "dependencies": {
     "@fvilers/disable-react-devtools": "^1.3.0",
