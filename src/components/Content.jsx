@@ -18,7 +18,7 @@ export default function Content() {
 
   React.useEffect(function(){
 
-    fetch("http://localhost:8080/api")
+    fetch("https://timelytransitbackend.onrender.com/api")
       .then(response => response.json())
       .then(data => {
         
