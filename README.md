@@ -1,6 +1,6 @@
 # Timely Transit
 
-## Timely Transit uses React, Node, and OC Transpo's public API to allow users to find the next three buses coming to their chosen bus stop.
+Timely Transit uses React, Node, and OC Transpo's public API to allow users to find the next three buses coming to their chosen bus stop.
 
 ### This project allowed me to practice core React concepts:
 
@@ -15,6 +15,6 @@
 
   - Configured a `server.js` file to manage API requests and process incoming user data on the backend
 
-## Note: The server may take up to 50 seconds to respond after periods of inactivity due to the free hosting plan.
+### Note: The server may take up to 50 seconds to respond after periods of inactivity due to the free hosting plan.
 
-[Visit Timely Transit](https://timelytransitclient.onrender.com/)
+###[Visit Timely Transit](https://timelytransitclient.onrender.com/)
