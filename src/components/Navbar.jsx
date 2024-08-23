@@ -5,6 +5,7 @@ export default function Navbar(props){
 
     return (
         <nav className={props.darkMode ? "dark" : ""}>
+            <h2 onClick={props.goBack} className="backButton">&#x2190;</h2>
             <img src={oclogo} className="navLogo"></img>
             <h1 className= "nav-title">Stop {props.stopNo}</h1>
 

@@ -40,23 +40,27 @@ export default function Landing(props){
             <form className="landingForm" onSubmit={handleSubmit}>
                 
                 <h1 className="landingTitle">Timely Transit</h1>
-
+                
+                <label for="busNum">Bus Number</label>
                 <input
                     className="busInputs"
                     type="text"
-                    placeholder="Bus Number"
+                    placeholder="Ex: 97"
                     name="busNo"
                     onChange={handleChange}
                     value={formData.busNo}
+                    id="busNum"
                 />
-    
+
+                <label for="stopNum">Stop Number</label>
                 <input
                     className="busInputs"
                     type="text"
-                    placeholder="Stop Number"
+                    placeholder="Ex: 8366"
                     name="stopNo"
                     onChange={handleChange}
                     value={formData.stopNo}
+                    id= "stopNum"
                 />
 
                 <button onClick={handleSubmit} className="formSubmit">Submit</button>

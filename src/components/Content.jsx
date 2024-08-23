@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Card from './Card'
 
-export default function Content() {
+export default function Content(props) {
 
   const [busData, setBusData] = React.useState([])
   const [busInfo, setBusInfo] =  React.useState({
@@ -42,7 +42,7 @@ export default function Content() {
   return (
 
     <main className={dark ? "dark" : ""}>
-      <Navbar darkMode={dark} handleClick={handleDarkMode} stopNo={busInfo.stopNo} />
+      <Navbar darkMode={dark} handleClick={handleDarkMode} stopNo={busInfo.stopNo} goBack={props.goBack}/>
       
       <div className="card-container">
         {cards}
