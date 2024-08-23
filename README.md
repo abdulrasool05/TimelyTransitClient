@@ -17,4 +17,4 @@ Timely Transit uses React, Node, and OC Transpo's public API to allow users to f
 
 ### Note: The server may take up to 50 seconds to respond after periods of inactivity due to the free hosting plan.
 
-[Visit Timely Transit](https://timelytransitclient.onrender.com/)
+## https://timelytransitclient.onrender.com/
