@@ -83,6 +83,7 @@ input:checked + .toggler::before{
   font-family: Inter;
   font-weight: 400;
   margin-left: 25px;
+  transition-duration: 0.4s;
 }
 
 .backButton:hover{
