@@ -236,3 +236,125 @@ input[type=text]:focus {
   font-size: 40px;
   color: #ffde59;
 }
+
+
+@media (max-width: 1454px){
+  .bus-time{
+    font-size: 19px;
+    width: 150px;
+    height: 35px;
+    margin-left: 200px;
+  }
+
+  .maps-icon{
+    width: 95px;
+    margin-left: 40px;
+  }
+
+  .bus-icon{
+    width: 80px;
+  }
+
+  .bus-name{
+    font-size: 35px;
+  }
+
+  .destination{
+    font-size: 18px;
+    max-width: 125px;
+
+  }
+}
+
+
+
+@media (max-width: 414px){
+  .bus-time{
+    font-size: 10px;
+    width: 55px;
+    height: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    
+  }
+
+  .maps-icon{
+    width: 45px;
+    margin-left: 5px;
+  }
+
+  .location-unavail{
+    font-size: 10px;
+    margin-left: 10px;
+    max-width: 45px;
+  
+  }
+
+  .bus-icon{
+    width: 40px;
+    margin-left: 10px;
+  }
+
+  .bus-name{
+    font-size: 13px;
+  }
+
+  .destination{
+    font-size: 8px;
+    max-width: 41px;
+
+  }
+
+  hr{
+    height: 50px;
+    margin-left:10px;
+  }
+
+  .card{
+    height: 130px;
+  }
+
+  .bus-info{
+    margin-left: 10px;
+  }
+
+  nav{
+    height:120px;
+  }
+
+  .navLogo{
+    width: 50px;
+    margin-left: 20px;
+  }
+
+  .nav-title{
+    font-size: 25px;
+  }
+
+  .toggler{
+    width: 50px;
+    height: 20px;
+    border-radius: 100px;
+    margin-right: 30px;
+  }
+  
+  .toggler::before{
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    margin: 3px;
+  }
+
+
+  input:checked + .toggler::before{
+    transform: translateX(30px);
+  }
+
+
+
+  /* LANDING STYLES */
+
+  .busInputs{
+    width: 90%;
+  }
+}
