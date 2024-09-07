@@ -22,7 +22,7 @@ export default function Landing(props){
 
     function handleSubmit(event){
         event.preventDefault()
-        fetch("https://timelytransitbackend.onrender.com/api/buses", {
+        fetch("https://timelytransitbackend.onrender.com/buses", {
             method: "POST",
             headers:{
                 "Content-type": "application/json"
