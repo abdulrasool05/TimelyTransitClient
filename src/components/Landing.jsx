@@ -22,7 +22,7 @@ export default function Landing(props){
 
     function handleSubmit(event){
         event.preventDefault()
-        fetch("https://timelytransitbackend.onrender.com/buses", {
+        fetch("http://localhost:8080/api/buses", {
             method: "POST",
             headers:{
                 "Content-type": "application/json"
@@ -40,6 +40,7 @@ export default function Landing(props){
             <form className="landingForm" onSubmit={handleSubmit}>
                 
                 <h1 className="landingTitle">Timely Transit</h1>
+                
                 
                 <label for="busNum">Bus Number</label>
                 <input
@@ -64,7 +65,11 @@ export default function Landing(props){
                 />
 
                 <button onClick={handleSubmit} className="formSubmit">Submit</button>
+                <div className="note">
+                    <p><strong>NOTE:</strong> Since this is being hosted on a free plan, after periods of inactivity it takes 50 seconds to send a request to the server</p>
+                </div>
             </form>
+            
         </main>
     )
 }

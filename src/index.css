@@ -224,6 +224,7 @@ input[type=text]:focus {
   font-family: Inter;
   font-size: 15px;
   font-weight: 500;
+  margin-bottom: 10px;
   cursor: pointer;
   transition-duration: 0.4s;
 }
@@ -251,10 +252,19 @@ input[type=text]:focus {
 label{
   font-family: Inter;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 16px;
   color: white;
   margin-right: auto;
   
+}
+
+.note{
+  max-width: 558px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  text-align: center;
 }
 
 
@@ -288,7 +298,7 @@ label{
 
 
 
-@media (max-width: 428px){
+@media (max-width: 414px){
   .bus-time{
     font-size: 10px;
     width: 55px;
@@ -384,4 +394,7 @@ label{
     margin-left: 12px;
   }
 
+  .note{
+    max-width: 330px;
+  }
 }
