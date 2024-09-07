@@ -22,7 +22,7 @@ export default function Landing(props){
 
     function handleSubmit(event){
         event.preventDefault()
-        fetch("https://timely-transit-client.vercel.app//api/buses", {
+        fetch("https://timely-transit-client.vercel.app/api/buses", {
             method: "POST",
             headers:{
                 "Content-type": "application/json"
