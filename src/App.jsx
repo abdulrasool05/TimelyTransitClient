@@ -12,7 +12,7 @@ export default function App(){
   }
 
   return (
-    landingPage ? <Landing toggleContent={toggleContent}/> : <Content />
+    landingPage ? <Landing toggleContent={toggleContent}/> : <Content goBack={toggleContent}/>
   )
 
 }
