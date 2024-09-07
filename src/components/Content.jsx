@@ -18,7 +18,7 @@ export default function Content(props) {
 
   React.useEffect(function(){
 
-    fetch("https://timely-transit-client.vercel.app/api")
+    fetch("https://timelytransitbackend.onrender.com/api")
       .then(response => response.json())
       .then(data => {
         
