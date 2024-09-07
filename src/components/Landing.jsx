@@ -66,7 +66,7 @@ export default function Landing(props){
 
                 <button onClick={handleSubmit} className="formSubmit">Submit</button>
                 <div className="note">
-                    <p><strong>NOTE:</strong> Since this is being hosted on a free plan, after periods of inactivity it takes 50 seconds to send a request to the server</p>
+                    <p><strong>NOTE:</strong> Since this is being hosted on a free plan, after periods of inactivity it takes 50 seconds to send a request to the server </p>
                 </div>
             </form>
             
