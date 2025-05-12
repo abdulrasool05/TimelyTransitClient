@@ -15,5 +15,5 @@ Timely Transit uses React, Node, and OC Transpo's public API to allow users to f
 
   - Configured a `server.js` file to manage API requests and process incoming user data on the backend
 
-# Note: OC Transpo API 2.0 has been recently depracated
+Note: OC Transpo API 2.0 has been recently deprecated
 
